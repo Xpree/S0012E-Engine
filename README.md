@@ -1,20 +1,12 @@
-# lab-env
-C++17 based application base for developing apps.
+# S0012E Engine
 
-# Requirements
-1. CMake 3+.
-2. Compiler with support C++17, such as VS 2017.
-  
-# Instructions
-Put your project in the folder titled 'projects'. It must be accompanied with its own CMakeLists.txt which is used to generate a project/solution. Then run CMake in the root of the project, there should be a target in your project matching the name of your lab.
-  
-# Usage
-The example environment contains two classes, Window and App. Override the App class for your project to implement your own update loop. The Window class is used to open a window and connect input handlers to it. 
+A lightweight engine for assignments in S0012E.
+Check out the projects folder!
 
-This is done by assigning a lambda function to a callback matching the input you require. It is possible to have more than one window open at a time, although one must select which window to render to using the function called Window::MakeCurrent prior to doing any GL calls.
-  
-# Example
-The example project is simply an example implementation which displays a colored triangle on a grey background.
+This engine is a work in progress, and things might not work as intended. Bugs and/or instabilities are to be expected.
+Pull requests are welcome!
 
-# Full Example
-The full example project contains a full (light-weight) renderer, complete with shader loading, asset importer, etc.
+## Requirements
+
+* CMake
+* Compiler (tested on MSVC, GCC)
