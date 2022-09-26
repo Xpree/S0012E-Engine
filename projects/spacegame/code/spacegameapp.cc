@@ -101,7 +101,7 @@ SpaceGameApp::Run()
         Physics::LoadColliderMesh("assets/space/Asteroid_5_physics.glb"),
         Physics::LoadColliderMesh("assets/space/Asteroid_6_physics.glb")
     };
-
+    //test
     std::vector<std::tuple<ModelId, Physics::ColliderId, glm::mat4>> asteroids;
     
     // Setup asteroids near
