@@ -182,7 +182,7 @@ SpaceGameApp::Run()
 
     std::clock_t c_start = std::clock();
     double dt = 0.01667f;
-
+    //bruh
     // game loop
     while (this->window->IsOpen())
 	{
